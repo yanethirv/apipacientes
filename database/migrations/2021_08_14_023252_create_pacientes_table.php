@@ -21,7 +21,7 @@ class CreatePacientesTable extends Migration
             $table->string('sexo');
             $table->string('dni',8)->unique();
             $table->string('tipo_sangre');
-            $table->string('telefono');
+            $table->string('telefono',20);
             $table->string('correo');
             $table->string('direccion');
             $table->timestamps();
